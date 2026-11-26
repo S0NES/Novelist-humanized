@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "humanized-novelist",
+  "owner": {
+    "name": "S0NES",
+    "url": "https://github.com/S0NES"
+  },
+  "description": "Install Humanized Novelist as a Claude plugin.",
+  "plugins": [
+    {
+      "name": "humanized-novelist",
+      "source": "./",
+      "description": "Write and revise long serialized novels, chapter by chapter, so the prose reads like a person wrote it.",
+      "license": "MIT",
+      "keywords": ["novel", "fiction", "writing", "humanize", "serial", "litrpg"]
+    }
+  ]
+}

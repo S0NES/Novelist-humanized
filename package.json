@@ -1,0 +1,11 @@
+{
+  "name": "humanized-novelist",
+  "private": true,
+  "description": "Write and revise long serialized novels, chapter by chapter, so the prose reads like a person wrote it.",
+  "license": "MIT",
+  "repository": "github:S0NES/Novelist-humanized",
+  "keywords": ["pi-package", "agent-skill", "novel", "fiction", "writing", "humanizer"],
+  "pi": {
+    "skills": ["./"]
+  }
+}

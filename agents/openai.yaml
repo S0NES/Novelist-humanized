@@ -1,0 +1,4 @@
+interface:
+  display_name: "Humanized Novelist"
+  short_description: "Write novel chapters that read human"
+  default_prompt: "Use $humanized-novelist to write the next chapter of my novel."

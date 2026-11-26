@@ -1,0 +1,24 @@
+name: Check package
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check package files
+        run: python3 scripts/validate-package.py
+      - name: Check scripts on the example chapter
+        run: |
+          python3 scripts/wordcount.py examples/chapter-after.md --min 100
+          python3 scripts/check_tells.py examples/chapter-after.md

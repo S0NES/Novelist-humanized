@@ -1,0 +1,12 @@
+{
+  "name": "humanized-novelist",
+  "description": "Write and revise long serialized novels, chapter by chapter, so the prose reads like a person wrote it.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Vinicius de Souza Scarabelli"
+  },
+  "homepage": "https://github.com/S0NES/Novelist-humanized",
+  "repository": "https://github.com/S0NES/Novelist-humanized",
+  "license": "MIT",
+  "keywords": ["novel", "fiction", "writing", "humanize", "serial", "litrpg"]
+}
